@@ -47,8 +47,8 @@ app.post("/auth/register", upload.single("picture"),register) // Registering use
 
 
 // ROUTES
-app.use("/auth", authRoutes);
-// app.use("/users", userRoutes);
+app.use("/auth", authRoutes); // Authorization route use to authorize users to register or login
+app.use("/users", userRoutes);// Users route use to add all the features that user can use while using the app like adding and removing friends
 
 
 // MONGOOSE SETUP
