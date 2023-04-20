@@ -1,4 +1,4 @@
-import User from "../models/User"; // Importing users properties basically user schema object
+import User from "../models/User.js"; // Importing users properties basically user schema object
 
 // READ
 

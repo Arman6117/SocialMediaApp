@@ -1,4 +1,3 @@
-// import { use } from "bcrypt/promises";
 import mongoose from "mongoose";
 
 const UserSchema = new mongoose.Schema(
